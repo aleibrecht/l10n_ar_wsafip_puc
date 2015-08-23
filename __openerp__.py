@@ -22,7 +22,7 @@
     'author': 'OpenERP - Team de Localizaci\xc3\xb3n Argentina',
     'category': 'Localization/Argentina',
     'demo_xml': [],
-    'depends': ['l10n_ar_wsafip', 'l10n_ar_invoice'],
+    'depends': ['l10n_ar_afipws', 'l10n_ar_invoice'],
     'description': '\n\nAPI e GUI para acceder a las Web Services de Factura Electr\xc3\xb3nica de la AFIP\n\n',
     'init_xml': ['data/afip.document_class.csv', 'data/afip.wsfe_error.csv'],
     'installable': True,
